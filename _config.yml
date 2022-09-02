@@ -31,7 +31,7 @@ plugins:
 
 # jekyll-paginate
 paginate: 5
-paginate_path: "/blog/page:num/"
+paginate_path: "/page:num/"
 
 # jekyll-tagging (optional)
 tag_permalink_style: pretty
@@ -40,9 +40,6 @@ tag_page_dir: tag
 
 dash:
   date_format: "%b %-d, %Y"
-
-  disqus:
-    shortname: <your-discuss-shortname>
 
   # generate social links in footer
   # supported colors: green, red, orange, blue, cyan, pink, teal, yellow, indigo, purple
